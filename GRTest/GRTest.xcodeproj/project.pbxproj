@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C94DF457193CF17F007C1C82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94DF456193CF17F007C1C82 /* Foundation.framework */; };
+		C94DF459193CF17F007C1C82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94DF458193CF17F007C1C82 /* CoreGraphics.framework */; };
+		C94DF45B193CF17F007C1C82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94DF45A193CF17F007C1C82 /* UIKit.framework */; };
+		C94DF461193CF17F007C1C82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C94DF45F193CF17F007C1C82 /* InfoPlist.strings */; };
+		C94DF463193CF17F007C1C82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C94DF462193CF17F007C1C82 /* main.m */; };
+		C94DF467193CF17F007C1C82 /* GRTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C94DF466193CF17F007C1C82 /* GRTAppDelegate.m */; };
+		C94DF46A193CF17F007C1C82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94DF468193CF17F007C1C82 /* Main.storyboard */; };
+		C94DF46D193CF17F007C1C82 /* GRTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C94DF46C193CF17F007C1C82 /* GRTViewController.m */; };
+		C94DF46F193CF17F007C1C82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94DF46E193CF17F007C1C82 /* Images.xcassets */; };
+		C94DF476193CF17F007C1C82 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94DF475193CF17F007C1C82 /* XCTest.framework */; };
+		C94DF477193CF17F007C1C82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94DF456193CF17F007C1C82 /* Foundation.framework */; };
+		C94DF478193CF17F007C1C82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94DF45A193CF17F007C1C82 /* UIKit.framework */; };
+		C94DF480193CF17F007C1C82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C94DF47E193CF17F007C1C82 /* InfoPlist.strings */; };
+		C94DF482193CF17F007C1C82 /* GRTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C94DF481193CF17F007C1C82 /* GRTestTests.m */; };
+		C94DF48D193D0857007C1C82 /* GRTSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = C94DF48C193D0857007C1C82 /* GRTSquare.m */; };
+		C94DF493193D0AF6007C1C82 /* UIColor(GRTest).m in Sources */ = {isa = PBXBuildFile; fileRef = C94DF492193D0AF6007C1C82 /* UIColor(GRTest).m */; };
+		C94DF499193D0DEB007C1C82 /* GRTSquareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C94DF498193D0DEB007C1C82 /* GRTSquareManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C94DF479193CF17F007C1C82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C94DF44B193CF17F007C1C82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C94DF452193CF17F007C1C82;
+			remoteInfo = GRTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C94DF453193CF17F007C1C82 /* GRTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94DF456193CF17F007C1C82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C94DF458193CF17F007C1C82 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C94DF45A193CF17F007C1C82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C94DF45E193CF17F007C1C82 /* GRTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GRTest-Info.plist"; sourceTree = "<group>"; };
+		C94DF460193CF17F007C1C82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C94DF462193CF17F007C1C82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C94DF464193CF17F007C1C82 /* GRTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GRTest-Prefix.pch"; sourceTree = "<group>"; };
+		C94DF465193CF17F007C1C82 /* GRTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GRTAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C94DF466193CF17F007C1C82 /* GRTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GRTAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		C94DF469193CF17F007C1C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C94DF46B193CF17F007C1C82 /* GRTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GRTViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C94DF46C193CF17F007C1C82 /* GRTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GRTViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		C94DF46E193CF17F007C1C82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C94DF474193CF17F007C1C82 /* GRTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GRTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94DF475193CF17F007C1C82 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C94DF47D193CF17F007C1C82 /* GRTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GRTestTests-Info.plist"; sourceTree = "<group>"; };
+		C94DF47F193CF17F007C1C82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C94DF481193CF17F007C1C82 /* GRTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GRTestTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		C94DF48B193D0857007C1C82 /* GRTSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GRTSquare.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C94DF48C193D0857007C1C82 /* GRTSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRTSquare.m; sourceTree = "<group>"; };
+		C94DF491193D0AF6007C1C82 /* UIColor(GRTest).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor(GRTest).h"; sourceTree = "<group>"; };
+		C94DF492193D0AF6007C1C82 /* UIColor(GRTest).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor(GRTest).m"; sourceTree = "<group>"; };
+		C94DF497193D0DEB007C1C82 /* GRTSquareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRTSquareManager.h; sourceTree = "<group>"; };
+		C94DF498193D0DEB007C1C82 /* GRTSquareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRTSquareManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C94DF450193CF17F007C1C82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94DF459193CF17F007C1C82 /* CoreGraphics.framework in Frameworks */,
+				C94DF45B193CF17F007C1C82 /* UIKit.framework in Frameworks */,
+				C94DF457193CF17F007C1C82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94DF471193CF17F007C1C82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94DF476193CF17F007C1C82 /* XCTest.framework in Frameworks */,
+				C94DF478193CF17F007C1C82 /* UIKit.framework in Frameworks */,
+				C94DF477193CF17F007C1C82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C94DF44A193CF17F007C1C82 = {
+			isa = PBXGroup;
+			children = (
+				C94DF45C193CF17F007C1C82 /* GRTest */,
+				C94DF47B193CF17F007C1C82 /* GRTestTests */,
+				C94DF455193CF17F007C1C82 /* Frameworks */,
+				C94DF454193CF17F007C1C82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C94DF454193CF17F007C1C82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C94DF453193CF17F007C1C82 /* GRTest.app */,
+				C94DF474193CF17F007C1C82 /* GRTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C94DF455193CF17F007C1C82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C94DF456193CF17F007C1C82 /* Foundation.framework */,
+				C94DF458193CF17F007C1C82 /* CoreGraphics.framework */,
+				C94DF45A193CF17F007C1C82 /* UIKit.framework */,
+				C94DF475193CF17F007C1C82 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C94DF45C193CF17F007C1C82 /* GRTest */ = {
+			isa = PBXGroup;
+			children = (
+				C94DF465193CF17F007C1C82 /* GRTAppDelegate.h */,
+				C94DF466193CF17F007C1C82 /* GRTAppDelegate.m */,
+				C94DF468193CF17F007C1C82 /* Main.storyboard */,
+				C94DF46B193CF17F007C1C82 /* GRTViewController.h */,
+				C94DF46C193CF17F007C1C82 /* GRTViewController.m */,
+				C94DF46E193CF17F007C1C82 /* Images.xcassets */,
+				C94DF45D193CF17F007C1C82 /* Supporting Files */,
+				C94DF48B193D0857007C1C82 /* GRTSquare.h */,
+				C94DF48C193D0857007C1C82 /* GRTSquare.m */,
+				C94DF491193D0AF6007C1C82 /* UIColor(GRTest).h */,
+				C94DF492193D0AF6007C1C82 /* UIColor(GRTest).m */,
+				C94DF497193D0DEB007C1C82 /* GRTSquareManager.h */,
+				C94DF498193D0DEB007C1C82 /* GRTSquareManager.m */,
+			);
+			path = GRTest;
+			sourceTree = "<group>";
+		};
+		C94DF45D193CF17F007C1C82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C94DF45E193CF17F007C1C82 /* GRTest-Info.plist */,
+				C94DF45F193CF17F007C1C82 /* InfoPlist.strings */,
+				C94DF462193CF17F007C1C82 /* main.m */,
+				C94DF464193CF17F007C1C82 /* GRTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C94DF47B193CF17F007C1C82 /* GRTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C94DF481193CF17F007C1C82 /* GRTestTests.m */,
+				C94DF47C193CF17F007C1C82 /* Supporting Files */,
+			);
+			path = GRTestTests;
+			sourceTree = "<group>";
+		};
+		C94DF47C193CF17F007C1C82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C94DF47D193CF17F007C1C82 /* GRTestTests-Info.plist */,
+				C94DF47E193CF17F007C1C82 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C94DF452193CF17F007C1C82 /* GRTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C94DF485193CF17F007C1C82 /* Build configuration list for PBXNativeTarget "GRTest" */;
+			buildPhases = (
+				C94DF44F193CF17F007C1C82 /* Sources */,
+				C94DF450193CF17F007C1C82 /* Frameworks */,
+				C94DF451193CF17F007C1C82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GRTest;
+			productName = GRTest;
+			productReference = C94DF453193CF17F007C1C82 /* GRTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C94DF473193CF17F007C1C82 /* GRTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C94DF488193CF17F007C1C82 /* Build configuration list for PBXNativeTarget "GRTestTests" */;
+			buildPhases = (
+				C94DF470193CF17F007C1C82 /* Sources */,
+				C94DF471193CF17F007C1C82 /* Frameworks */,
+				C94DF472193CF17F007C1C82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C94DF47A193CF17F007C1C82 /* PBXTargetDependency */,
+			);
+			name = GRTestTests;
+			productName = GRTestTests;
+			productReference = C94DF474193CF17F007C1C82 /* GRTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C94DF44B193CF17F007C1C82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GRT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Andrei Popa";
+				TargetAttributes = {
+					C94DF473193CF17F007C1C82 = {
+						TestTargetID = C94DF452193CF17F007C1C82;
+					};
+				};
+			};
+			buildConfigurationList = C94DF44E193CF17F007C1C82 /* Build configuration list for PBXProject "GRTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C94DF44A193CF17F007C1C82;
+			productRefGroup = C94DF454193CF17F007C1C82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C94DF452193CF17F007C1C82 /* GRTest */,
+				C94DF473193CF17F007C1C82 /* GRTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C94DF451193CF17F007C1C82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94DF46F193CF17F007C1C82 /* Images.xcassets in Resources */,
+				C94DF461193CF17F007C1C82 /* InfoPlist.strings in Resources */,
+				C94DF46A193CF17F007C1C82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94DF472193CF17F007C1C82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94DF480193CF17F007C1C82 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C94DF44F193CF17F007C1C82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94DF48D193D0857007C1C82 /* GRTSquare.m in Sources */,
+				C94DF467193CF17F007C1C82 /* GRTAppDelegate.m in Sources */,
+				C94DF499193D0DEB007C1C82 /* GRTSquareManager.m in Sources */,
+				C94DF463193CF17F007C1C82 /* main.m in Sources */,
+				C94DF493193D0AF6007C1C82 /* UIColor(GRTest).m in Sources */,
+				C94DF46D193CF17F007C1C82 /* GRTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94DF470193CF17F007C1C82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94DF482193CF17F007C1C82 /* GRTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C94DF47A193CF17F007C1C82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C94DF452193CF17F007C1C82 /* GRTest */;
+			targetProxy = C94DF479193CF17F007C1C82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C94DF45F193CF17F007C1C82 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C94DF460193CF17F007C1C82 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C94DF468193CF17F007C1C82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C94DF469193CF17F007C1C82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C94DF47E193CF17F007C1C82 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C94DF47F193CF17F007C1C82 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C94DF483193CF17F007C1C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C94DF484193CF17F007C1C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C94DF486193CF17F007C1C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GRTest/GRTest-Prefix.pch";
+				INFOPLIST_FILE = "GRTest/GRTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C94DF487193CF17F007C1C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GRTest/GRTest-Prefix.pch";
+				INFOPLIST_FILE = "GRTest/GRTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C94DF489193CF17F007C1C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GRTest.app/GRTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GRTest/GRTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GRTestTests/GRTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C94DF48A193CF17F007C1C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GRTest.app/GRTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GRTest/GRTest-Prefix.pch";
+				INFOPLIST_FILE = "GRTestTests/GRTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C94DF44E193CF17F007C1C82 /* Build configuration list for PBXProject "GRTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94DF483193CF17F007C1C82 /* Debug */,
+				C94DF484193CF17F007C1C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C94DF485193CF17F007C1C82 /* Build configuration list for PBXNativeTarget "GRTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94DF486193CF17F007C1C82 /* Debug */,
+				C94DF487193CF17F007C1C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C94DF488193CF17F007C1C82 /* Build configuration list for PBXNativeTarget "GRTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94DF489193CF17F007C1C82 /* Debug */,
+				C94DF48A193CF17F007C1C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C94DF44B193CF17F007C1C82 /* Project object */;
+}
